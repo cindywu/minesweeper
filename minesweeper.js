@@ -107,7 +107,7 @@ function getMinePositions(boardSize, numberOfMines) {
 }
 
 function positionMatch(a, b) {
-  return a.x === b.x && a.y
+  return a.x === b.x && a.y === b.y
 }
 
 function randomNumber(size) {
